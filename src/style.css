@@ -1,0 +1,31 @@
+.center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-40%, 50%);
+    transition: 0.5s;
+    display: grid;
+}
+
+.center > .btns{
+    display: flex;
+    gap: 20px;
+}
+
+.center > h1{
+    text-align: center;
+}
+
+.center > .btns > button{
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.center > .btns > button:hover{
+    border-radius: 10px;
+    background-color: purple;
+    transition: 0.5s;
+}
